@@ -1,0 +1,72 @@
+@import url("./style.css");
+html{
+  font-size: 9px;
+}
+.showcase-info h1{
+ font-size: 2rem;
+}
+.search-bar1{
+  margin-right: 0;
+}
+.input-width1{
+  width: 28rem;
+ }
+ .input-width2{
+  width: 28rem; 
+ }
+ .footer-info{
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.footer-logo{
+  margin: 1.5rem 0;
+}
+.footer-rights{
+  order: 1;
+}
+.footer-term{
+  order: 2;
+}
+.footer-rights p{
+  display: none;
+}
+.footer-policy{
+  order: 3;
+  margin-top: 1rem;
+}
+.current{
+  display: block;
+  margin: 1rem 0;
+  order: 4;
+}
+.footer-info a , .footer-info p{
+  font-size: 1.2rem;
+}
+/* FAQ */
+.telegram__btn i{
+  margin-right: 1.2rem;
+}
+.hamburger__btn{
+  font-size: 10px;
+  padding: 5px 9px;
+ 
+}
+.hamburger__btn i{
+  font-size:10px;
+}
+.faq__faq__item {
+  max-height: 3.3rem;
+}
+.q__icon{
+  width: 20px;
+  height: 20px;
+}
+.faq__item__link{
+  font-size: 1.1rem;
+  padding-bottom: .8em;
+  
+}
+.current p{
+  padding-bottom:0.3rem;
+}

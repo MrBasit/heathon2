@@ -1,0 +1,20 @@
+@import url("./style.css");
+html{
+  font-size: 12px;
+}
+.showcase-search-bar{
+  flex-direction: column; 
+}
+.search-bar1{
+  margin-right: 0;
+}
+.input-width1{
+  width: 30rem;
+ }
+.input-width2{
+  width: 30rem; 
+ }
+ /* Faq */
+ .faq__faq__item {
+  max-height: 3.3rem;
+}
