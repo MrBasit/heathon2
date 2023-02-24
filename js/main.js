@@ -89,9 +89,11 @@ try {
 try {
     
     var popupCardTrigger = document.querySelectorAll('.available');
+    var body = document.querySelector('body');
     var popupCardMain = document.querySelector('.popup__card__main');
     popupCardTrigger.forEach(item => { item.addEventListener('click', popupCardFunc) });
     function popupCardFunc() {
+        body.classList.toggle('position-fixed')
         popupCardMain.classList.toggle('active');
     }
 

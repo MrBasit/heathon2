@@ -575,8 +575,9 @@ p{
 }
 .fas.fa-times.available{
   position: fixed;
-  top: 5%;
-  left: 90%;
+  right: 10%;
+  top: 3%;
+  font-size: 18px;
 }
 /* Scroll To Top Btn -------------------------------------------------- */
 .scroll__top__top{
@@ -658,7 +659,7 @@ p{
 .amount a{
   display: inline-block;
   text-align: center;
-  padding: 0.2rem 1rem;
+  padding: 0.5rem;
   background: #f88700;
   color: white;
   font-weight: 500;
@@ -677,7 +678,11 @@ p{
   text-align: center;
   color: white;
   background: #f88700;
-  padding: 0.3rem 0;
+  padding: .8rem 0;
   border-radius: 0.5rem;
 }
 /* ------------------------------------------------------- */
+
+.position-fixed{
+  position: fixed;
+}
